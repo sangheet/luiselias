@@ -27,6 +27,8 @@ body {
 	background: #45cb96;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	/* background-image: url("https://www.tts-international.com/on/demandware.static/-/Sites-TTSGroupE-commerceInternational/default/dwde8f1668/images/PLP%20Images/Primary/Cat-Music-KeyboardStringed.jpg"); */
+	background-repeat: no-repeat;
 }
 
 a {
