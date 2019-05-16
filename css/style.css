@@ -27,8 +27,8 @@ body {
 	background: #45cb96;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	/* background-image: url("https://www.tts-international.com/on/demandware.static/-/Sites-TTSGroupE-commerceInternational/default/dwde8f1668/images/PLP%20Images/Primary/Cat-Music-KeyboardStringed.jpg"); */
-	background-repeat: no-repeat;
+	background-image: url("../img/bkg.png");
+	background-repeat: repeat;
 }
 
 a {
@@ -235,8 +235,21 @@ html.js,
 	margin: 0 0 2em;
 	padding: 1em 4em 0;
 }
+.grid__item2 {
+	position: relative;
+	width: 50%;
+	min-width: 280px;
+	margin: 0 0 2em;
+	padding: 1em 4em 0;
+}
 
 .js .grid__item {
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+.js .grid__item2 {
 	position: absolute;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s;
@@ -292,11 +305,11 @@ html.js,
 }
 
 .grid__item--deco-2::before {
-	content: 'Pendiente';
+	content: 'Shabarabah';
 }
 
 .grid__item--deco-3::before {
-	content: 'Perro Caliente';
+	content: '@elluiselias';
 }
 
 
