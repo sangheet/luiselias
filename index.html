@@ -7,13 +7,15 @@
 		<title>El Luis Elias</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="js/modernizr.custom.js"></script>
+
+
 	</head>
 	<body>
+		<div class="bg-art">
 		<svg class="hidden">
 			<defs>
 				<symbol id="icon-ir-acoustic" viewBox="0 0 30 30">
@@ -118,8 +120,9 @@
 					<path style="fill:#fff;" class="grabbable" d="M353,738.9l18.3-22.9l13.2,6.4l-6.2,28.7l-22.8,47.1c0,0-1.2,3.3-15.4-3.6c-11.2-5.4-10-8.7-10-8.7L353,738.9z"/>
 				</symbol>
 			</defs>
-		</svg><!-- SVGs -->
-		<main><div class="container">
+		</svg>
+		<!-- SVGs -->
+		<main>
 			<div class="view view--grid view--current">
 				<header class="page-header">
 					<h1 class="page-header__title">El Luis Elias</h1>
@@ -128,19 +131,19 @@
 					</div>
 				</header>
 				<ul class="grid">
-					<li class="grid__item"><div class="box">
+					<li class="grid__item">
 						<a class="grid__link" href="#album-1" data-playlist-1="audio/songStolen_Dreams_Backing_Track.mp3,audio/songDream_On_This_Side.mp3" data-playlist-2="audio/songStolen_Dreams_Backing_Track.mp3">
 							<div class="img-wrap img-wrap--grid">
 								<svg class="lp lp--grid">
 									<use xlink:href="#icon-lp-mini"></use>
 								</svg>
-								<img class="img img--grid" src="img/album1.jpg" alt="album1" />
+								<img class="img img--grid box" src="img/album1.jpg" alt="album1" />
 							</div>
 							<span class="year">2019</span>
 							<h2 class="artist">Luis Elias - Shabarabah</h2>
 							<h3 class="title">No Digas que nos fue mal (single)</h3>
 						</a>
-					</div></li>
+					</li>
 					<li class="grid__item grid__item--deco grid__item--deco-1">
 						<a class="grid__link" href="#album-2">
 							<div class="img-wrap img-wrap--grid">
@@ -281,7 +284,7 @@
 							<h3 class="title">Nigel &amp; Me</h3>
 						</a>
 					</li>
-				</ul>
+				</ul></div>
 			</div><!-- /view-grid -->
 			<div class="deco-expander"></div>
 			<div class="view view--player">
@@ -528,15 +531,15 @@
 					</svg>
 				</button>
 			</div><!-- /view--single -->
-			</div></main>
+		
+		</main>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/dynamics.min.js"></script>
 		<script src="js/abbey-load.js"></script>
 		<script src="js/main.js"></script>
-
-
+		<script src="js/scroll.js"></script>
 
 
 		<!-- 
@@ -545,5 +548,5 @@
 		- then set view view--single to view view--single view--current
 		- to navigate, set new single to single--current and remove single--current from previous one (needs some adjustment)
 		-->
-	</body>
+	</div></body>
 </html>

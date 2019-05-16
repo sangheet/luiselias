@@ -1069,6 +1069,15 @@ we use margins because transforms will be applied dynamically */
 	-webkit-transition-delay: 0.5s;
 	transition-delay: 0.5s;
 }
+.bg-art{
+	background-image: url("../img/bg-art.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position-x: 50%;
+	background-position-y: bottom;
+	display: block;
+}
+
 
 
 /* Media queries */
@@ -1094,4 +1103,9 @@ we use margins because transforms will be applied dynamically */
 		width: 100%;
 		padding: 15vmin 1em 0 1em;
 	}
+	.bg-art{
+		background-size: 100%;
+	}
+	
+
 }
