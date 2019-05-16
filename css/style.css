@@ -120,7 +120,7 @@ html.js,
 }
 
 .page-header__title {
-	font-family: 'nexa_boldregular', sans-serif;
+	font-family: 'Rock Salt', cursive;
 	font-size: 7vmin;
 	line-height: 1.25;
 	margin: 0;
@@ -130,6 +130,7 @@ html.js,
 }
 
 .page-header__subtitle {
+	font-family: 'Nanum Pen Script', cursive;
 	display: block;
 	max-width: calc(50vw - 5em);
 	margin: 1em 0 0 5px;
