@@ -1094,5 +1094,25 @@ we use margins because transforms will be applied dynamically */
 		width: 100%;
 		padding: 15vmin 1em 0 1em;
 	}
-
+	.box{
+		margin:12% auto;
+		width:60%;
+		min-height:100px;
+		background:#333;
+		will-change: auto;
+		transition:ease-out all .3s;
+	  }
+	  
+	  .blur{
+		-webkit-filter: url(#svgBlur);
+		filter: url(#svgBlur);
+		
+	  }
+	  .container{
+		max-height:600px;
+		overflow-X: scroll;
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
+	  }
+	  
 }

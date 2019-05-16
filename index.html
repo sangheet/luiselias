@@ -120,7 +120,7 @@
 				</symbol>
 			</defs>
 		</svg><!-- SVGs -->
-		<main>
+		<main><div class="container">
 			<div class="view view--grid view--current">
 				<header class="page-header">
 					<h1 class="page-header__title">El Luis Elias</h1>
@@ -129,7 +129,7 @@
 					</div>
 				</header>
 				<ul class="grid">
-					<li class="grid__item">
+					<li class="grid__item"><div class="box">
 						<a class="grid__link" href="#album-1" data-playlist-1="audio/songStolen_Dreams_Backing_Track.mp3,audio/songDream_On_This_Side.mp3" data-playlist-2="audio/songStolen_Dreams_Backing_Track.mp3">
 							<div class="img-wrap img-wrap--grid">
 								<svg class="lp lp--grid">
@@ -141,7 +141,7 @@
 							<h2 class="artist">Luis Elias - Shabarabah</h2>
 							<h3 class="title">No Digas que nos fue mal (single)</h3>
 						</a>
-					</li>
+					</div></li>
 					<li class="grid__item grid__item--deco grid__item--deco-1">
 						<a class="grid__link" href="#album-2">
 							<div class="img-wrap img-wrap--grid">
@@ -529,13 +529,25 @@
 					</svg>
 				</button>
 			</div><!-- /view--single -->
-		</main>
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+				<defs>
+				  <filter id="svgBlur">
+					<feGaussianBlur id="devi" stdDeviation="0 7" />
+				  </filter>
+				</defs>
+			  </svg>
+			</div></main>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/dynamics.min.js"></script>
 		<script src="js/abbey-load.js"></script>
 		<script src="js/main.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="js/scroll.js"></script>
+
+
+
 		<!-- 
 		- position expander: set opacity to 1, set top and left to the point where the mouse it. Animate to scale3d(1,1,1). To do the opposite, animate to scale3d(0,0,1) or scale(0.001,0.001,1).
 		- set class current of the respective single (set class single--current)
