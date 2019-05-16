@@ -288,15 +288,15 @@ html.js,
 }
 
 .grid__item--deco-1::before {
-	content: '1985';
+	content: 'Shabarabah';
 }
 
 .grid__item--deco-2::before {
-	content: '1974';
+	content: 'Pendiente';
 }
 
 .grid__item--deco-3::before {
-	content: '2015';
+	content: 'Perro Caliente';
 }
 
 
