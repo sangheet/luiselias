@@ -23,7 +23,7 @@
 body {
 	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
 	overflow-x: hidden;
-	color: #474283;
+	color: #fdfdfd;
 	background: #45cb96;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -323,13 +323,13 @@ html.js,
 .grid__link {
 	position: relative;
 	display: block;
-	color: #474283;
+	color: #000000;
 	-webkit-perspective: 1200px;
 	perspective: 1200px;
 }
 
 .grid__link:hover {
-	color: #474283;
+	color: #fdea02;
 	outline: none;
 }
 
