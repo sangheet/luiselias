@@ -120,21 +120,25 @@ html.js,
 }
 
 .page-header__title {
-	font-family: 'Rock Salt', cursive;
-	font-size: 7vmin;
-	line-height: 1.25;
-	margin: 0;
-	padding: 0 0 0 1.65em;
-	background: url(../img/vinyls.svg) no-repeat 0 50%;
-	background-size: auto 100%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 7vmin;
+    color: white;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0 0 0 1.65em;
+    background: url(../img/vinyls.svg) no-repeat 0 50%;
+    background-size: auto 100%;
+    text-shadow: 1px 2px 3px #131212;
 }
 
 .page-header__subtitle {
 	font-family: 'Nanum Pen Script', cursive;
-	display: block;
-	max-width: calc(50vw - 5em);
-	margin: 1em 0 0 5px;
-	color: #fff;
+    display: block;
+    max-width: calc(50vw - 5em);
+    margin: 1em 0 0 5px;
+    color: #ffeb00;
+    font-size: xx-large;
+    text-shadow: 1px 2px 3px #000;
 }
 
 /* Codrops navigation */
