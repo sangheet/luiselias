@@ -1075,7 +1075,11 @@ we use margins because transforms will be applied dynamically */
 	transition-delay: 0.5s;
 }
 .bg-art{
+<<<<<<< HEAD
 	background-image: url("../img/web-bg-artwork.svg");
+=======
+	background-image: url("../img/");
+>>>>>>> master
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-position-x: 50%;
