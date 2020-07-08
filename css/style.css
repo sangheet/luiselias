@@ -25,10 +25,30 @@ body {
 	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
 	overflow-x: hidden;
 	color: #fdfdfd;
-	background-image: linear-gradient(to left bottom, #ffe900, #ffaf14, #ff7739, #e34551, #b3205f, #91185f, #6f145a, #4c1251, #3c1047, #2e0e3c, #200a30, #170125);
+	background-image: linear-gradient(220deg, #ffe900, #ffaf14, #ff7739, #e34551, #b3205f, #91185f, #6f145a, #4c1251, #3c1047, #2e0e3c, #200a30, #170125);
+	background-size: 800% 800%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-repeat: repeat;
+	-webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 73%}
+    50%{background-position:100% 28%}
+    100%{background-position:0% 73%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 73%}
+    50%{background-position:100% 28%}
+    100%{background-position:0% 73%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 73%}
+    50%{background-position:100% 28%}
+    100%{background-position:0% 73%}
 }
 
 a {
