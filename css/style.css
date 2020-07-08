@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
 	font-family: 'nexa_boldregular';
 	font-weight: bold;
@@ -24,10 +25,9 @@ body {
 	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
 	overflow-x: hidden;
 	color: #fdfdfd;
-	background: #45cb96;
+	background-image: linear-gradient(to left bottom, #ffe900, #ffaf14, #ff7739, #e34551, #b3205f, #91185f, #6f145a, #4c1251, #3c1047, #2e0e3c, #200a30, #170125);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url("../img/bkg.png");
 	background-repeat: repeat;
 }
 
@@ -120,25 +120,25 @@ html.js,
 }
 
 .page-header__title {
-    font-family: 'Rock Salt', cursive;
-    font-size: 7vmin;
-    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20vmin;
+	color: #ff0080b9;
     line-height: 1.25;
     margin: 0;
     padding: 0 0 0 1.65em;
     background: url(../img/vinyls.svg) no-repeat 0 50%;
     background-size: auto 100%;
-    text-shadow: 1px 2px 3px #131212;
+    
 }
 
 .page-header__subtitle {
-	font-family: 'Nanum Pen Script', cursive;
+	font-family: 'Bebas Neue', cursive;
     display: block;
     max-width: calc(50vw - 5em);
     margin: 1em 0 0 5px;
-    color: #ffeb00;
+    color: #ffffffad;
     font-size: xx-large;
-    text-shadow: 1px 2px 3px #000;
+    
 }
 
 /* Codrops navigation */
@@ -323,7 +323,7 @@ html.js,
 .grid__link {
 	position: relative;
 	display: block;
-	color: #000000;
+	color: #ffffff;
 	-webkit-perspective: 1200px;
 	perspective: 1200px;
 }
@@ -463,7 +463,7 @@ html.js,
 	pointer-events: none;
 	opacity: 0;
 	border-radius: 50%;
-	background: #45918e;
+	background-image: radial-gradient(circle, #ffe900, #ffaf14, #ff7739, #e34551, #b3205f, #91185f, #6f145a, #4c1251, #3c1047, #2e0e3c, #200a30, #170125);
 	-webkit-transform: scale(0.001);
 	transform: scale(0.001);
 }
@@ -757,7 +757,7 @@ html.js,
 	width: calc(90vmin + (0.2 * 80vmin));
 	height: 90vmin;
 	border-radius: 0.15em;
-	background: #45bd94;
+	background-image: linear-gradient(to bottom, #1e1300, #332308, #4a350c, #61470c, #795b0a, #825510, #8a4f18, #914821, #792d2e, #561d31, #2f1329, #0d0016);
 	-webkit-transform: translate3d(-50%, -50%, 0) translate3d(calc(0.06 * 80vmin), 0, 0);
 	transform: translate3d(-50%, -50%, 0) translate3d(calc(0.06 * 80vmin), 0, 0);
 	pointer-events: none;
