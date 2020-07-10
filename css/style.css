@@ -215,6 +215,11 @@ html.js,
 	.sponsor {
 		z-index: 1000;transform: rotate(-90deg);font-size: 12px;position:absolute; top: 50%; left: -20%; background: black; padding: 10px;
 	}
+	.page-header__title {
+		transform: scale(2.2);
+		margin-left: 150px;
+		margin-top: 20px;
+	}
 }
 
 
@@ -1108,11 +1113,6 @@ we use margins because transforms will be applied dynamically */
 	transition-delay: 0.5s;
 }
 .bg-art{
-<<<<<<< HEAD
-	background-image: url("../img/web-bg-artwork.svg");
-=======
-	background-image: url("../img/");
->>>>>>> master
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-position-x: 50%;
